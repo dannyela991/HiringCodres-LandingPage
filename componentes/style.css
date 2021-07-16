@@ -66,7 +66,7 @@ header{
 
 /* CRONOMETRO E CADASTRO */
 .cadastro{
-    background: url(./componentes/imgs/background.png) #000 no-repeat center;
+    background: url(imgs/background.png) #000 no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     padding: 100px 0;
@@ -191,7 +191,8 @@ footer h2{
 copyright p{
     text-align: center;
     margin: 0;
-    padding-bottom: 10px;
+    padding: 0 10px 10px 10px;
+    font-size: 10px;
 }
 copyright a{
     color: #a5d42e;
