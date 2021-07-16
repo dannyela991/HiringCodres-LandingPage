@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Desafio #01 - Gama Academy - LandingPage" />
+    <meta name="author" content="Daniela Silva" />
+    <link rel="apple-touch-icon" href="logo192.png" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="componentes/style.css" />
+    <link rel="stylesheet" type="text/css" href="componentes/responsive.css" />    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+
+    <title>Mundo Coraline - BlackFriday</title>
+  </head>
+
+  <body>
+
+    <div id="myModal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Atenção</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center">
+                <p>Esta página é apenas para estudo.</p>
+                <p>Nenhum dado será coletado em nosso banco de dados.</p>
+                <p>As promoções mostradas nessa página não tem valor. Entre no site oficial da loja para conferir os produtos e promoções.</p>
+                <h4>MUNDOCORALINE.COM.BR</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <header>
+        <div class="container flex-div">
+            <div class="logo">
+                <img src="componentes/imgs/logo.svg" alt="Mundo Coraline" />
+            </div>
+            <nav class='navegacao'>
+                <a href='https://mundocoraline.com.br' target="_blank">Ir para a Loja</a>
+            </nav>
+        </div>
+      </header>
+
+      <section class='cadastro'>
+        <div class='container'>
+            <h1>Estamos contando os dias para a Black Friday</h1>
+            <p>a maior venda do ano começa em</p>
+            <div class='cronometro flex-div'>
+                <p id='dias'></p>
+                <p id='horas'></p>
+                <p id='minutos'></p>
+                <p id='segundos'></p>
+            </div>
+            <div id='content' >
+                <form id='form'>
+                    <input class='nameInput' id='nome' type='text' placeholder='NOME *' required /><br/>
+                    <input class='emailInput' id='email' type='email' placeholder='E-MAIL *' required/><br/>
+                    <input type='submit' class='botaoSubmit' value='Estou nisso!' />
+                </form>
+            </div>
+        </div>
+      </section>
+
+      <section class='pageConteudo'>
+            <div class='container'>
+                <h2>Top <span>Promoções</span></h2>
+                <p>Tenha já um gostinho das melhores ofertas e começe a economizar!</p>
+                <div class='categorias flex-div div-mobile'>
+                    <div class='categoriaItens'>
+                        <img src="componentes/imgs/almofadas.jpg" alt='Produtos com até 70% de desconato' />
+                        <div class='desconto'>70%</div>
+                        <div class='descricao'>Almofadas</div>
+                    </div>
+                    <div class='categoriaItens'>
+                        <img src="componentes/imgs/canecas.jpg" alt='Produtos com até 50% de desconato' />
+                        <div class='desconto'>50%</div>
+                        <div class='descricao'>Canecas</div>
+                    </div>
+                </div>
+                <div class='categorias flex-div div-mobile'>
+                    <div class='categoriaItens'>
+                        <img src="componentes/imgs/conjunto.jpg" alt='Produtos com até 90% de desconato' />
+                        <div class='desconto'>90%</div>
+                        <div class='descricao'>Todos os Produtos</div>
+                    </div>
+                    <div class='categoriaItens'>
+                        <img src="componentes/imgs/simpsons.png" alt='Produtos com até 60% de desconato' />
+                        <div class='desconto'>60%</div>                        
+                        <div class='descricao'>Simpsons</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      <footer>
+        <div class='social-media'>
+            <div class='container'>
+                <a href='https://www.facebook.com/mundocoraline' title='Siga-nos no facebook.com/mundocoraline' target='_blank'><img src="componentes/imgs/facebook.png" alt='Facebook' /></a>
+                <a href='https://www.instagram.com/mundo.coraline/' title='Siga-nos no instagram.com/mundo.coraline' target='_blank'><img src="componentes/imgs/instagram.png" alt='Instagram' /></a>
+            </div>
+        </div>
+        <div class='container flex-div div-mobile textos'>
+            <div>
+                <p><img src="componentes/imgs/avatar.png" alt="Mascote Coraline" />
+                Loja de produtos para decorações e presentes do mundo Geek</p>
+            </div>
+            <div>
+                <h2>Mais Informações</h2>
+                <ul>
+                    <li>Entrega</li>
+                    <li>Troca e Devolução</li>
+                    <li>Política de Privacidade</li>
+                    <li>Fale Conosco</li>
+                </ul>
+            </div>
+            <div>  
+                <h2>Dados de contato</h2>
+                <ul>
+                    <li>(11) 988539336</li>
+                    <li>Cidade São Francisco - SP</li>
+                    <li>atendimento@mundocoraline.com.br</li>
+                </ul>
+            </div>
+        </div>
+        <copyright>
+            <p>&copy; Mundo Coraline Decorações e Presentes Geek - 38.359.814/0001-90 - 2021. Todos os direitos reservados. Desenvolvido por <a href='https://dscriacaoweb.com.br'>Daniela</a> Página criada para o programa Hiring Coders</p>
+        </copyright>
+
+      </footer>
+  </body>
+
+  <script src="componentes/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</html>

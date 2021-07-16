@@ -1,0 +1,48 @@
+@media screen and (max-width: 600px){
+    header{
+        background: url(imgs/fridaymobile.png) no-repeat center;
+        background-size: cover;
+        height: 60vh;
+    }
+    .flex-div.div-mobile{
+        display: block;
+    }
+    
+    .cronometro{
+        width: 90%;
+    }
+    .cronometro p{
+        font-size: 2rem;
+        width: 70px;
+    }
+    input{
+        line-height: 50px!important;
+        width: 90%;
+    }
+    input.botaoSubmit{
+        width: 90%;
+    }        
+    .desconto {
+        left: 8px;
+        padding: 15px;
+        font-size: 1rem;
+        border-radius: 25px 0 25px 0;
+    }
+    .descricao{
+        font-size: 1rem;
+    }
+    
+    .social-media img{
+        height: 50px;
+        padding: 5px;
+        border: 2px solid #000;
+    }
+        
+    .textos{
+        line-height: 2rem;
+        text-align: center;
+    }
+    .textos img{
+        display: none;
+    }
+}
